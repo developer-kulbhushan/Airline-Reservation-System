@@ -1,0 +1,12 @@
+Icons - flaticon.com
+Crafted Images - vectr.com
+HomePage Image - https://wallpaper-house.com/wallpaper-id-216108.php
+
+----------------------------------------------------------------
+
+External Libraries
+
+XML DOM PARSER - http://www.java2s.com/Code/Jar/d/Downloaddom230jaxb106jar.htm
+FLAT LAF (JAVA THEME) - https://github.com/JFormDesigner/FlatLaf
+JDATEPICKER - https://github.com/JDatePicker/JDatePicker
+MYSQL CONNECTOR - https://dev.mysql.com/downloads/connector/j/8.0.html
