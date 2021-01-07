@@ -1,12 +1,16 @@
+Loading GIF - dribble.com
+-----------------------------------------------------------------------
+GIF Editing - ezgif.com
+-----------------------------------------------------------------------
+Background Images -  vectr.com
+
+Homepage Image - https://wallpaper-house.com/wallpaper-id-216108.php
+-----------------------------------------------------------------------
 Icons - flaticon.com
-Crafted Images - vectr.com
-HomePage Image - https://wallpaper-house.com/wallpaper-id-216108.php
+-----------------------------------------------------------------------
+External Libraries - 
 
-----------------------------------------------------------------
-
-External Libraries
-
-XML DOM PARSER - http://www.java2s.com/Code/Jar/d/Downloaddom230jaxb106jar.htm
-FLAT LAF (JAVA THEME) - https://github.com/JFormDesigner/FlatLaf
-JDATEPICKER - https://github.com/JDatePicker/JDatePicker
-MYSQL CONNECTOR - https://dev.mysql.com/downloads/connector/j/8.0.html
+FlatLaf Theme - https://github.com/JFormDesigner/FlatLaf
+DatePicker Componenet - https://github.com/JDatePicker/JDatePicker
+JAVA DOM Parser - http://www.java2s.com/Code/JarDownload/dom/dom-2.3.0-jaxb-1.0.6.jar.zip
+MySQL Connector - https://dev.mysql.com/downloads/file/?id=498587
