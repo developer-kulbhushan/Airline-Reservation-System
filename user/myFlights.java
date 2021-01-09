@@ -77,7 +77,7 @@ public class myFlights extends JPanel {
 	}
 	
 	//Getting myFlights list(Upcoming and Boarded) 
-		private void myFlightsSorter() {	
+		 void myFlightsSorter() {	
 
 			String line;
 			String[] values;

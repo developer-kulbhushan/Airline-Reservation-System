@@ -24,6 +24,7 @@ public class sendFeedback extends JPanel implements MouseListener{
 	private JButton sendfeedback;
 	JTextArea message;
 	private int userid;
+	private JButton refresh;
 	
 	public sendFeedback(int userid) {
 		
@@ -52,7 +53,12 @@ public class sendFeedback extends JPanel implements MouseListener{
 		sendfeedback.setBounds(175,380,200,40);
 		sendfeedback.addMouseListener(this);
 		
+		refresh = new JButton("Refresh");
+		refresh.setBounds(200,430,150,40);
+		refresh.addMouseListener(this);
+		
 		bg.add(sendfeedback);
+		bg.add(refresh);
 		bg.add(sp);
 		
 		add(bg);
@@ -74,6 +80,11 @@ public class sendFeedback extends JPanel implements MouseListener{
 		bg.add(message);
 		pnl.add(bg);
 		return pnl;
+	}
+	
+	private void refresh() {
+		new myFlights(userid).myFlightsSorter();
+		sp.setViewportView(Login.boarded_flights);
 	}
 	
 	@Override
@@ -114,6 +125,8 @@ public class sendFeedback extends JPanel implements MouseListener{
 			else {
 				//Do Nothing
 			}
+		} else if (e.getSource() ==  refresh) {
+			refresh();
 		}
 	}
 	@Override
